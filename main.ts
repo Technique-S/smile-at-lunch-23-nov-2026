@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 
 // One line, at most 200 characters, about a small good thing that happened today.
 // The small good thing: a quiet neighbour was secretly watering a plant.
-const line = "At lunch today my grumpy downstairs neighbour asked if my sick fern was okay — turns out she'd been watering it through the window for a week, never once mentioning it.";
+const line = "My neighbour who lost her husband last spring left a pot of her basil at my door with a note: 'For when you want something that grows back.'";
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? './out';
 mkdirSync(outputDir, { recursive: true });
